@@ -1,17 +1,17 @@
 //Mendrive program with Type 3
 #include<stdio.h>
-void isMenDrivePro();//declartion
+void isMenDrivePro(int);//declartion
 void main()
 {
 	int num;
     printf("Enter a number: ");
     scanf("%d", &num);
-	isMenDrivePro();//call
+	isMenDrivePro(num);//call
 	
 }
-void isMenDrivePro()//defination
+void isMenDrivePro(int num)//defination
 {
-    int num, option;
+    int no, option;
     while (1) {
         printf("\nMenu:\n");
         printf("1. To check num is Even or Odd\n");
