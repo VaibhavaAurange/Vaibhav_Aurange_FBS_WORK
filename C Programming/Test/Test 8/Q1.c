@@ -3,7 +3,7 @@
 void main() 
 {
     char userid[20]; 
-	char password[20];
+    char password[20];
     int captch=1234;
     int userInput;
     
