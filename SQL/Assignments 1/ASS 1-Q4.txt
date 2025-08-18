@@ -1,0 +1,30 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| hm1                |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| v1                 |
++--------------------+
+6 rows in set (0.10 sec)
+
+mysql> use v1;
+Database changed
+mysql> create table job_histry
+    -> (employee_id int, start_date Date, end_date Date, job_id int, department_id int);
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> desc job_histry;
++---------------+------+------+-----+---------+-------+
+| Field         | Type | Null | Key | Default | Extra |
++---------------+------+------+-----+---------+-------+
+| employee_id   | int  | YES  |     | NULL    |       |
+| start_date    | date | YES  |     | NULL    |       |
+| end_date      | date | YES  |     | NULL    |       |
+| job_id        | int  | YES  |     | NULL    |       |
+| department_id | int  | YES  |     | NULL    |       |
++---------------+------+------+-----+---------+-------+
+5 rows in set (0.03 sec)
