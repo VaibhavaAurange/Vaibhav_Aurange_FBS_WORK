@@ -1,0 +1,54 @@
+name- Vaibhav suresh aurange
+
+1)
+=select emp_name,salary,from employee order by desc;
+
+2)
+=select emp_name max(salary) from employee limit 5;
+
+3)
+=select * from employee limit(3,5);
+
+4)
+=select count(*) from employee group by department;
+
+5)
+=select avg(salary) from employee  group by department having avg(sal)>50000;
+
+6)
+=select * from product where name="Laptop";
+
+7)
+=select student_name from Student 
+ 
+8)
+=select student_name from Students where name like "A%";
+
+9)
+=
+
+10
+=select category sum(salesAmt),avg(salesAmt) from Sales group by Category having sum(SalesAmount)>100000;
+
+11)
+= option- a)
+
+12)
+= option- b)
+
+13)
+= option- c)
+
+14)
+= option-b)
+
+15)
+= option-b)
+
+16)
+=
+
+17)
+=
+
+  
