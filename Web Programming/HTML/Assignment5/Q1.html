@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Registration Form</h1>
+    <hr>
+
+    <form>
+        
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" name="Fullname" placeholder="Enter your full name" maxlength="50" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password"name="password" placeholder="Enter password" minlength="6" maxlength="12" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" ><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male" > Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox"  value="HTML"> HTML
+        <input type="checkbox"  value="CSS"> CSS
+        <input type="checkbox"  value="JavaScript"> JavaScript<br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" name="resume"><br><br>
+
+        <label for="favcolor">Favorite Color:</label><br>
+        <input type="color" name="favcolor" value="#00ff00"><br><br>
+
+        <label for="satisfaction">Satisfaction (1-10):</label><br>
+        <input type="range"name="satisfaction" min="1" max="10" value="5"><br><br>
+
+        <input type="hidden" name="userid" value="12345">
+
+        <input type="reset" value="Clear Form">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
